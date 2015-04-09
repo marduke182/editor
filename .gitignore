@@ -1,0 +1,11 @@
+node_modules
+.tmp
+.sass-cache
+app/bower_components/
+public/
+
+# Editor
+.kateproject
+.kateproject.d
+*.kate-swp
+.idea

@@ -1,0 +1,20 @@
+<div class="ngEditor-toolbar">
+  <ul>
+    <li ng-repeat="action in toolbar.actions">
+      <div ng-switch="action.type">
+        <div ng-switch-when="select">
+          <label class="meditor-select">
+
+            <select ng-model="action.default" ng-change="action.execute(action.default)" ng-options="option for option in action.options"
+                    class="meditor-size-selector"></select>
+          </label>
+        </div>
+        <div ng-switch-when="button">
+          <button type="button" ng-click="action.execute()" class="meditor-button-bold">
+            {{::action.name}}
+          </button>
+        </div>
+      </div>
+    </li>
+  </ul>
+</div>

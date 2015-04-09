@@ -1,0 +1,31 @@
+{
+  "name": "angular-meditor",
+  "version": "1.1.2",
+  "dependencies": {},
+  "devDependencies": {
+    "connect-livereload": "~0.5.1",
+    "grunt": "~0.4.x",
+    "grunt-angular-templates": "~0.5.x",
+    "grunt-build-control": "0.1.x",
+    "grunt-contrib-clean": "~0.6.x",
+    "grunt-contrib-concat": "~0.5.x",
+    "grunt-contrib-connect": "~0.9.x",
+    "grunt-contrib-copy": "~0.7.x",
+    "grunt-contrib-cssmin": "~0.10.x",
+    "grunt-contrib-htmlmin": "~0.3.x",
+    "grunt-contrib-jshint": "~0.10.x",
+    "grunt-contrib-uglify": "~0.6.x",
+    "grunt-contrib-watch": "~0.6.x",
+    "grunt-ng-annotate": "~0.10.x",
+    "grunt-sass": "~0",
+    "grunt-usemin": "~2.x",
+    "gulp": "^3.8.11",
+    "gulp-inject": "^1.2.0",
+    "gulp-load-plugins": "^0.8.1",
+    "gulp-webserver": "^0.9.0",
+    "matchdep": "~0.3.0"
+  },
+  "engines": {
+    "node": ">=0.8.0"
+  }
+}
