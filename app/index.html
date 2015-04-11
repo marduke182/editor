@@ -39,10 +39,8 @@
     </div>
   </header>
 
-  <!-- directive:  text-meditor  1-->
   <section class="row">
-    <ng-editor ng-model="arrayModel" placeholder="Type here"></ng-editor>
-
+    <mk-editor ng-model="arrayModel" placeholder="Type here"></mk-editor>
   </section>
 
 
@@ -71,11 +69,10 @@
 
   <!-- build:js({.tmp,app}) scripts/text-ngEditor.js -->
   <!-- inject:js -->
-  <script src="modules/ngEditor/angular/ngEditor.js"></script>
-  <script src="modules/ngEditor/utils/selection.js"></script>
-  <script src="modules/ngEditor/angular/directives/ngEditor.js"></script>
-  <script src="modules/ngEditor/angular/directives/ngEditorToolbar.js"></script>
-  <script src="modules/ngEditor/angular/services/toolbarDelegate.js"></script>
+  <script src="../src/ngEditor.js"></script>
+  <script src="../src/utils/selection.js"></script>
+  <script src="../src/components/editor/editor.js"></script>
+  <script src="../src/components/toolbar/toolbar.js"></script>
   <!-- endinject -->
   <!-- endbuild -->
 
